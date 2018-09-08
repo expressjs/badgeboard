@@ -24,6 +24,7 @@ mixin project-row(project)
     td: +badge-travis(project.repo)
     td: +badge-coverage(project.repo)
     td: +badge-david(project.repo)
+    td: +badge-packagephobia(project.npm)
     td: +badge-downloads(project.npm)
 
 mixin project(project)
