@@ -20,6 +20,10 @@
     }
   },
   "projects": {
+    "express": {
+      "description": "Fast, unopinionated, minimalist web framework",
+      "node": "0.10"
+    },
     "body-parser": {
       "description": "Node.js body parsing middleware",
       "node": "0.8"
