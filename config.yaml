@@ -13,6 +13,7 @@ keywords:    express
 # list of projects, this will be sorted by name;
 # every package is either string or object
 projects:
+ - express
  - cookie-session
  - compression
  - serve-index
