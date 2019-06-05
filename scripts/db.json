@@ -4,7 +4,7 @@
   "//3": "but it will be overwritten on the next build.",
   "maintainers": {
     "dougwilson": {
-      "packages": 105
+      "packages": 104
     },
     "fishrock123": {
       "packages": 45
@@ -13,7 +13,7 @@
       "packages": 559
     },
     "linusu": {
-      "packages": 176
+      "packages": 184
     },
     "rlidwka": {
       "packages": 15
@@ -28,8 +28,16 @@
       "description": "Node.js compression middleware",
       "node": "0.8"
     },
+    "cookie-parser": {
+      "description": "Parse HTTP request cookies",
+      "node": "0.8"
+    },
     "cookie-session": {
       "description": "cookie session middleware",
+      "node": "0.10"
+    },
+    "cors": {
+      "description": "Node.js CORS middleware",
       "node": "0.10"
     },
     "csurf": {
@@ -43,6 +51,10 @@
     "flash": {
       "description": "Simple flash messages for Express",
       "node": "0.8"
+    },
+    "generator": {
+      "description": "Express' application generator",
+      "node": "0.10"
     },
     "method-override": {
       "description": "Override HTTP verbs",
@@ -74,6 +86,10 @@
     },
     "session": {
       "description": "Simple session middleware for Express",
+      "node": "0.8"
+    },
+    "timeout": {
+      "description": "Simple replacement for setTimeout, setInterval, and polling loops",
       "node": "0.8"
     },
     "vhost": {

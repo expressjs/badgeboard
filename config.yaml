@@ -13,6 +13,14 @@ keywords:    express
 # list of projects, this will be sorted by name;
 # every package is either string or object
 projects:
+ - cors
+ - body-parser
+ - session
+ - generator:
+     npm: express-generator
+ - cookie-parser
+ - errorhandler
+ - timeout
  - cookie-session
  - compression
  - serve-index
